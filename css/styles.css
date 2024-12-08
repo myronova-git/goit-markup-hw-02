@@ -150,7 +150,6 @@ button {
 
 /* #region === Section 2 === */
 .section-2 {
-    background-color: #F4F4FD
 }
 
 .section-2-title {
@@ -163,10 +162,12 @@ button {
 }
 
 .section-2-list {
-    background-color: #FFFFFF
+    /* background-color: #FFFFFF */
 }
 
-.section-2-item {}
+.section-2-item {
+    background-color: #FFFFFF
+}
 
 .section-2-item-title {
     /* font-weight: 500;
@@ -192,6 +193,7 @@ button {
 .section-3 {}
 
 .section-3-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
