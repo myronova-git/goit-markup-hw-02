@@ -148,6 +148,7 @@ button {
 }
 
 .section-2-title {
+    text-transform: capitalize;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -156,7 +157,9 @@ button {
     color: #2e2f42;
 }
 
-.section-2-list {}
+.section-2-list {
+    background-color: #FFFFFF
+}
 
 .section-2-item {}
 
