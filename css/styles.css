@@ -1,5 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    
 }
 
 a {
@@ -52,7 +55,9 @@ button {
     color: #404bbf;
 }
 
-.address-header {}
+.address-header {
+    font-style: normal;
+}
 
 .address-list {}
 
@@ -62,16 +67,15 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
 
 .address-item-link {
     font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .address-item-link:hover,
@@ -139,7 +143,9 @@ button {
 
 
 /* #region === Section 2 === */
-.section-2 {}
+.section-2 {
+    background-color: #F4F4FD
+}
 
 .section-2-title {
     font-weight: 700;
